@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 10px;
+    background-color: white;
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+header a{
+    text-decoration: none;
+}
+.first-child > a{
+   margin-right: 10px;
+   color: rgb(105, 105, 105);
+   
+}
+.header-2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+}
+.logo img{
+    width: 10%;
+}
+.logo h1{
+    width: 80%;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+} 
+.navigation ul li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+.navigation ul a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+.button button{
+    padding: 13px;
+    background-color: rgb(126, 126, 232);
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+
+}
+.button button:hover{
+    background-color: rgb(51, 51, 173);
+    transition: 1s ease-in-out;
+}
+.navigation ul a:hover{
+    color:  rgb(126, 126, 232);
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+
+    
+
+ 
+}
+
+
