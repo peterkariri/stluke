@@ -3,8 +3,7 @@ body{
     padding: 0;
 }
 header{
-    position: sticky;
-    top: 10px;
+    position: fixed;
     background-color: white;
 }
 .header-1{
@@ -50,6 +49,9 @@ header a{
     margin-right: 20px;
 
 }
+.button{
+    width: 20%;
+}
 .navigation ul a{
     text-decoration: none;
     color: rgb(105, 105, 105);
@@ -76,5 +78,107 @@ header a{
 
  
 }
+.first-section {
+    width: 100%;
+}
+.first-section img{
+    width: 100%;
+    
+}
+li select {
+    /* Remove border */
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    appearance: none; /* Remove default dropdown arrow */
+}
+
+li select:hover {
+    /* On hover, you can add a shadow to give a pop-up effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+li {
+    position: relative;
+}
+
+/* On hover, you can style the dropdown more distinctly */
+li select option:hover {
+    background-color: lightgray; /* Optional hover effect for options */
+    cursor: pointer;
+}
+.get-started{
+    width: 85%;
+    margin: 20px auto;
+    position: relative;
+    bottom: 350px;
+}
+.first-wrapper button{
+    background-color: rgb(51, 51, 173);
+    color: white;
+    padding: 20px;
+    width: 20%;
+    border-radius: 30px;
+    border: none;
 
 
+}
+.first-wrapper{
+    margin-bottom: 50px;
+}
+.first-wrapper h1{
+    color: white;
+}
+.second-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.choose{
+    background-color: rgb(58, 58, 196);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 5px black;
+
+}
+.choose a{
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+   position: relative;
+   top: 20px ;
+   left: 40px;
+ padding-left: 40px;
+ padding-right: 40px;
+   text-align: center;
+   align-items: center;
+    text-decoration: none;
+    background-color: rgb(107, 107, 234);
+
+}
+.same{
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 5px black;
+}
+.about h1{
+    text-align: center;
+}
+.content-1{
+    display: flex;
+    gap: 50px;
+}
+.imgdiv{
+    width: 100%;
+}
+.imgdiv img{
+    width: 100%;
+}
